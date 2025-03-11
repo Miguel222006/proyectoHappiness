@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: white;
+}
+.item1 {
+    background-color: rgb(245, 203, 0);
+    
+}
+
+.nav-link {
+    display: flex;
+    justify-content: flex-end;
+    text-decoration: none;
+    align-content: flex-start;
+}
+
+a {
+    display: inline-flex;
+    justify-content: space-between;
+    text-decoration: none;
+    color: black;
+    margin: 0px 10px;
+}
+
+.item2{
+    display: flex wrap;
+    padding: 88px;
+    
+}
+
+ .title {
+    font-size: 50px;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+} 
+
+.text1{
+    margin: -501px 83px 85px 813px;
+    font-size: 20px;
+}
+
+button {
+    background-color: rgb(245, 203, 0);
+
+}
+
+.contenedor {
+    background-color: rgb(230, 230, 230);
+    font-size: 50px;
+    padding: 50px;
+    margin-bottom: 175px;
+    border-radius: 90px;
+    margin-top: 275px;
+}
+
+.cont {
+    font-size: 74px;
+    display: flex;
+    margin-left: 80px;
+    margin-top: 40px;
+}
+
+.cont-text {
+    font-size: 30px;
+    margin-top: -40px;
+    margin-left: 80px;
+}
+
+.Read {
+    font-size: 30px;
+    margin-top: -40px;
+    margin-left: 80px;
+}
+
+.graph01 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    border: 2px solid red;
+    padding: 10px;
+    margin: 0px, 0px, 0px, 0px;
+}
+
+.graph02 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    border: 2px solid red;
+    padding: 10px;
+}

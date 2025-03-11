@@ -31,12 +31,33 @@ a {
     
 }
 
+#container1{
+    
+}
  .title {
-    font-size: 50px;
+    font-size: 40px;
     font-family: sans-serif;
     font-weight: bold;
     text-transform: uppercase;
 } 
+
+.parrafo1 {
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    font-weight: normal;
+}
+
+.button1{
+    background-color: yellow; /* Color de fondo amarillo */
+    color: black; /* Texto en color negro */
+    font-weight: bold; /* Texto en negrita */
+    border: none; /* Sin bordes */
+    padding: 10px 20px; /* Espaciado interno (vertical y horizontal) */
+    cursor: pointer; /* Cambia el cursor a una mano al pasar por encima */
+    font-size: 16px; /* Tamaño del texto */
+}
+
+
 
 .text1{
     margin: -501px 83px 85px 813px;
@@ -48,6 +69,11 @@ button {
 
 }
 
+#container2{
+    display: flex;
+
+   
+}
 .contenedor {
     background-color: rgb(230, 230, 230);
     font-size: 50px;
@@ -76,16 +102,18 @@ button {
     margin-left: 80px;
 }
 
-.graph01 {
+#img {
+    display: flex;
+}
+#graph01 {
     display: flex;
     justify-content: flex-end;
     align-items: flex-start;
     border: 2px solid red;
-    padding: 10px;
-    margin: 0px, 0px, 0px, 0px;
+        
 }
 
-.graph02 {
+#graph02 {
     display: flex;
     justify-content: flex-end;
     align-items: flex-start;

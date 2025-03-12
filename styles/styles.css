@@ -31,9 +31,9 @@ a {
     
 }
 
-#container1{
-    
-}
+/* #container1{
+    display: ;
+} */
  .title {
     font-size: 40px;
     font-family: sans-serif;
@@ -48,13 +48,13 @@ a {
 }
 
 .button1{
-    background-color: yellow; /* Color de fondo amarillo */
-    color: black; /* Texto en color negro */
-    font-weight: bold; /* Texto en negrita */
-    border: none; /* Sin bordes */
-    padding: 10px 20px; /* Espaciado interno (vertical y horizontal) */
-    cursor: pointer; /* Cambia el cursor a una mano al pasar por encima */
-    font-size: 16px; /* Tamaño del texto */
+    background-color: rgb(245, 203, 0); 
+    color: black; 
+    font-weight: bold; 
+    border: none; 
+    padding: 10px 20px; 
+    cursor: pointer; 
+    font-size: 16px; 
 }
 
 
@@ -119,4 +119,33 @@ button {
     align-items: flex-start;
     border: 2px solid red;
     padding: 10px;
+}
+
+.cuerpo2 {
+    display: flex;
+    background-color: rgb(245, 203, 0);
+}
+
+#titulo2{
+    display: flex;
+    font-size: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#img2{
+    display: flex;
+    justify-content: center;
+    margin: 300px 40px 40px 40px;
+}
+
+.button2{
+    display: flex;
+    background-color: rgb(0, 0, 0); 
+    color: white; 
+    font-weight: bold; 
+    border: none; 
+    padding: 10px 20px; 
+    cursor: pointer; 
+    font-size: 16px; 
+    margin: 416px 150px;
 }

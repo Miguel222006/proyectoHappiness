@@ -1,15 +1,27 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
+
 body {
     background-color: white;
 }
+
 .item1 {
     background-color: rgb(245, 203, 0);
-    
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 10px 20px; 
 }
 
+.img1 {
+    display: flex;
+    justify-content: flex-start;
+    text-align: left;
+    height: 50px;
+}
 .nav-link {
     display: flex;
     justify-content: flex-end;
@@ -25,21 +37,21 @@ a {
     margin: 0px 10px;
 }
 
-.item2{
+.item2 {
     display: flex wrap;
     padding: 88px;
-    
+
 }
 
 /* #container1{
     display: ;
 } */
- .title {
+.title {
     font-size: 40px;
     font-family: sans-serif;
     font-weight: bold;
     text-transform: uppercase;
-} 
+}
 
 .parrafo1 {
     font-family: Arial, sans-serif;
@@ -47,19 +59,19 @@ a {
     font-weight: normal;
 }
 
-.button1{
-    background-color: rgb(245, 203, 0); 
-    color: black; 
-    font-weight: bold; 
-    border: none; 
-    padding: 10px 20px; 
-    cursor: pointer; 
-    font-size: 16px; 
+.button1 {
+    background-color: rgb(245, 203, 0);
+    color: black;
+    font-weight: bold;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
 }
 
 
 
-.text1{
+.text1 {
     margin: -501px 83px 85px 813px;
     font-size: 20px;
 }
@@ -69,11 +81,12 @@ button {
 
 }
 
-#container2{
+#container2 {
     display: flex;
 
-   
+
 }
+
 .contenedor {
     background-color: rgb(230, 230, 230);
     font-size: 50px;
@@ -105,12 +118,13 @@ button {
 #img {
     display: flex;
 }
+
 #graph01 {
     display: flex;
     justify-content: flex-end;
     align-items: flex-start;
     border: 2px solid red;
-        
+
 }
 
 #graph02 {
@@ -124,28 +138,51 @@ button {
 .cuerpo2 {
     display: flex;
     background-color: rgb(245, 203, 0);
+    align-items: center;
+    justify-content: space-between;
+    height: 100vh;
+    padding: 50px;
 }
 
-#titulo2{
-    display: flex;
-    font-size: 80px;
-    font-family: Arial, Helvetica, sans-serif;
+.textContent {
+    width: 50%;
+    color: black;
+
 }
 
-#img2{
+.textContent h3 {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+
+.textContent p {
+    font-size: 1;
+    margin: 20px 0;
+}
+
+.textContent button {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    font-size: 1;
+}
+
+#img2 {
     display: flex;
     justify-content: center;
     margin: 300px 40px 40px 40px;
 }
 
-.button2{
+.button2 {
     display: flex;
-    background-color: rgb(0, 0, 0); 
-    color: white; 
-    font-weight: bold; 
-    border: none; 
-    padding: 10px 20px; 
-    cursor: pointer; 
-    font-size: 16px; 
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-weight: bold;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
     margin: 416px 150px;
 }

@@ -5,58 +5,62 @@
 }
 
 body {
+    font-family: Arial, sans-serif;
     background-color: white;
 }
 
+/* HEADER */
 .item1 {
     background-color: rgb(245, 203, 0);
     display: flex; 
     justify-content: space-between; 
     align-items: center; 
-    padding: 10px 20px; 
+    padding: 15px 20px;
 }
 
-.img1 {
-    display: flex;
-    justify-content: flex-start;
-    text-align: left;
+.img1 img {
     height: 50px;
 }
+
 .nav-link {
     display: flex;
-    justify-content: flex-end;
-    text-decoration: none;
-    align-content: flex-start;
+    gap: 20px;
 }
 
-a {
-    display: inline-flex;
-    justify-content: space-between;
+.nav-link a {
     text-decoration: none;
     color: black;
-    margin: 0px 10px;
+    font-weight: bold;
 }
 
-.item2 {
-    display: flex wrap;
-    padding: 88px;
-
+/* SECCIÓN PRINCIPAL */
+#container1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
 }
 
-/* #container1{
-    display: ;
-} */
+.item2 img {
+    width: 400px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.text1 {
+    margin-left: 50px;
+    max-width: 500px;
+}
+
 .title {
     font-size: 40px;
-    font-family: sans-serif;
     font-weight: bold;
     text-transform: uppercase;
 }
 
 .parrafo1 {
-    font-family: Arial, sans-serif;
-    font-size: 15px;
-    font-weight: normal;
+    font-size: 16px;
+    margin-top: 10px;
 }
 
 .button1 {
@@ -67,73 +71,61 @@ a {
     padding: 10px 20px;
     cursor: pointer;
     font-size: 16px;
+    margin-top: 15px;
 }
 
-
-
-.text1 {
-    margin: -501px 83px 85px 813px;
-    font-size: 20px;
-}
-
-button {
-    background-color: rgb(245, 203, 0);
-
-}
-
+/* SECCIÓN "HAPPINESS IN NUMBERS" */
 #container2 {
     display: flex;
-
-
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(230, 230, 230);
+    padding: 80px;
+    flex-wrap: wrap;
+    width: 100%;
 }
 
 .contenedor {
-    background-color: rgb(230, 230, 230);
-    font-size: 50px;
-    padding: 50px;
-    margin-bottom: 175px;
-    border-radius: 90px;
-    margin-top: 275px;
+    width: 50%;
+    text-align: left;
 }
 
 .cont {
-    font-size: 74px;
-    display: flex;
-    margin-left: 80px;
-    margin-top: 40px;
+    font-size: 36px;
+    font-weight: bold;
+    color: #ffcc00;
+    text-transform: uppercase;
 }
 
 .cont-text {
-    font-size: 30px;
-    margin-top: -40px;
-    margin-left: 80px;
+    font-size: 20px;
+    color: #333;
+    margin-top: 10px;
 }
 
 .Read {
-    font-size: 30px;
-    margin-top: -40px;
-    margin-left: 80px;
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+    margin-top: 20px;
+    cursor: pointer;
 }
 
-#img {
+.images {
     display: flex;
+    align-items: center;
+    /* justify-content: flex-end;  */
+    gap: 30px; 
+    /* width: 40%; */
 }
 
-#graph01 {
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-start;
-    border: 2px solid red;
-
+#graph01, #graph02 {
+    width: 220px;   
+    height: auto;
+    /* border: 2px solid purple; */
 }
 
-#graph02 {
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-start;
-    border: 2px solid red;
-    padding: 10px;
-}
+/* SECCION WE CAN HELP YOU TO BE HAPPY */
 
 .cuerpo2 {
     display: flex;
@@ -147,7 +139,6 @@ button {
 .textContent {
     width: 50%;
     color: black;
-
 }
 
 .textContent h3 {
@@ -169,10 +160,19 @@ button {
     font-size: 1;
 }
 
-#img2 {
+/* #img2 {
     display: flex;
     justify-content: center;
     margin: 300px 40px 40px 40px;
+} */
+
+.image2{
+    width: 50%;
+}
+
+.image2 img {
+    width: 100%;
+    border-radius: 10px;
 }
 
 .button2 {
@@ -185,4 +185,409 @@ button {
     cursor: pointer;
     font-size: 16px;
     margin: 416px 150px;
+}
+
+/* SECCION %HAPPINESS */
+
+.happiness-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    background: white;
+    padding: 3  0px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.happy-img {
+    width: 50%;
+    border-radius: 10px;
+}
+
+.happiness-content {
+    width: 50%;
+    text-align: center;
+    padding: 20px;
+}
+
+h4 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.highlight {
+    color: #FFC107;
+    font-weight: bold;
+}
+
+p {
+    font-size: 16px;
+    margin: 15px 0;
+}
+
+.boton {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    display: block;
+    margin: 15px auto;
+}
+
+.boton:hover {
+    background-color: #333;
+}
+
+.graph-img {
+    display: block;
+    width: 50%;
+    margin-top: 20px auto 0 ;
+}
+
+/*ABOUT US SECTION*/
+
+.about-us {
+    /* background-color: black;
+    text-align: center;
+    width: 100%;
+    max-width: 100%; */
+    background-color: black; 
+    color: white; 
+    width: 100vw; 
+    min-height: 100vh; 
+    padding: 50px; 
+    text-align: center; 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
+    box-sizing: border-box; 
+}
+
+.title {
+    color: #FFC107; /* Amarillo */
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.text-aboutUs {
+    max-width: 800px; 
+    font-size: 18px; 
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+
+.about-us img { 
+    max-width: 600px;
+    display: block;
+    margin: 0 auto 20px; /* Centrado con margen inferior */
+}
+
+.buttonInfoYellow {
+    background-color: #FFC107; /* Amarillo */
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.buttonInfoYellow:hover {
+    background-color: #e0a800; /* Efecto más oscuro */
+}
+
+/* OUR TEAM */
+
+.our-team {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 50px;
+}
+
+.our-team .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 450px;
+}
+
+.our-team img {
+    width: 550px; /* Ajusta el tamaño de la imagen */
+    height: auto;
+    border-radius: 10px;
+}
+
+.our-team h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 10px;
+    /* max-width: 400px; */
+}
+
+.our-team p {
+    font-size: 16px;
+    color: black;
+    margin-bottom: 15px;
+    line-height: 1.5;
+}
+
+.buttonInfoYellow-ourTeam {
+    background-color: rgb(245, 203, 0);
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: bold;
+    align-self: start;
+}
+
+/*OUR METHOD*/
+
+.our-method {
+    display: flex;
+    background-color: rgb(230, 230, 230);
+    align-items: center;
+    justify-content: space-between;
+    max-width: 100%;
+    max-height: 100%;
+    margin: auto;
+    padding: 100px 100px;
+    gap: 50px;
+}
+
+.our-method h5 {
+    font-size: 34px;
+    font-weight: bold;
+    color: #000;
+    margin-bottom: 15px;
+    max-width: 450px;
+}
+
+.our-method p {
+    font-size: 16px;
+    color: #333;
+    line-height: 1.6;
+    max-width: 450px;
+}
+
+.buttonInfoYellow-ourMethod {
+    background-color: yellow;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.buttonInfoYellow:hover {
+    background-color: #e6c300;
+}
+
+.our-method img {
+    width: 600px;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* FORMULARIO*/
+
+.cont-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 50px 20px;
+    max-width: 900px;
+    margin: auto;
+}
+
+.formulario {
+    background-color: black;
+    color: white;
+    padding: 40px;
+    border-radius: 10px;
+    width: 450px;
+}
+
+.formulario form {
+    display: flex;
+    flex-direction: column;
+}
+
+.formulario label {
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.formulario input,
+.formulario textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid white;
+    background-color: black;
+    color: white;
+}
+
+.formulario .input-group {
+    display: flex;
+    gap: 10px;
+}
+
+.formulario .input-group input {
+    width: 100%;
+}
+
+.formulario textarea {
+    height: 80px;
+    resize: none;
+}
+
+.form-text {
+    font-size: 12px;
+    margin-top: 15px;
+}
+
+.buttonSubscribe-form {
+    margin-top: 15px;
+    background-color: black;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    display: block;
+    width: 100%;
+    text-align: center;
+    border-radius: 5px;
+    /* font-weight: bold; */
+}
+
+.buttonSubscribe-form:hover {
+    background-color: orange;
+}
+
+.text-sub {
+    max-width: 400px;
+}
+
+.text-sub h2 {
+    color: rgb(245, 203, 0);
+    font-size: 26px;
+    font-weight: bold;
+    line-height: 1.2;
+}
+
+.text-sub p {
+    margin-bottom: 20px; 
+    font-size: 14px;
+    
+}
+
+/*CONTACTO*/
+
+.contact {
+    width: 100vw;
+    height: 100vh;
+    margin: auto;
+    background: rgb(245, 203, 0);
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact h6 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+
+.contact p {
+    font-size: 14px;
+    color: #333;
+}
+
+
+.contact img {
+    width: 70%;
+    /* max-width: 600px; */
+    border-radius: 5px;
+}
+
+
+.buttonContact {
+    display: inline-block;
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.buttonContact:hover {
+    background-color: #333;
+}
+
+/*END*/
+
+.end {
+    background-color: black; 
+    color: rgb(245, 203, 0); 
+    text-align: center; 
+    padding: 40 px 20px; 
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.end img {
+    width: 60px; 
+    display: block;
+    margin: 0px auto 20px;  
+}
+
+.end h6 {
+    display: inline-block; 
+    margin: 5px 15px; 
+    font-size: 14px; 
+    font-weight: normal;
+}
+
+.end hr {
+    border: 0.5px solid gray; 
+    width: 90%; 
+    margin: 20px auto; 
+}
+
+.copyright {
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+.redes {
+    position: absolute;
+    right: 20px; 
+    bottom: 10px 5px; 
+    display: flex;
+    gap: 10px;
+}
+
+.redes img {
+    width: 25px; /* Tamaño de los iconos */
+    height: 25px;
 }
